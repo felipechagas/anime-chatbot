@@ -1,0 +1,268 @@
+{
+    "_id" : "5c24d282a7573adc93db5b01",
+    "sender_id" : "UF1P99V1A",
+    "active_form" : {},
+    "events" : [ 
+        {
+            "event" : "action",
+            "timestamp" : 1545917058.18485,
+            "name" : "action_listen",
+            "policy" : null,
+            "confidence" : null
+        }, 
+        {
+            "event" : "user",
+            "timestamp" : 1545917060.10081,
+            "text" : "Olá",
+            "parse_data" : {
+                "intent" : {
+                    "name" : "greet",
+                    "confidence" : 0.627010771342514
+                },
+                "entities" : [],
+                "intent_ranking" : [ 
+                    {
+                        "name" : "greet",
+                        "confidence" : 0.627010771342514
+                    }, 
+                    {
+                        "name" : "goodbye",
+                        "confidence" : 0.160026393415055
+                    }, 
+                    {
+                        "name" : "say_name",
+                        "confidence" : 0.11962202258183
+                    }, 
+                    {
+                        "name" : "inform",
+                        "confidence" : 0.0933408126606011
+                    }
+                ],
+                "text" : "Olá"
+            },
+            "input_channel" : "slack"
+        }, 
+        {
+            "event" : "action",
+            "timestamp" : 1545917067.70608,
+            "name" : "utter_ask_name",
+            "policy" : "policy_0_MemoizationPolicy",
+            "confidence" : 1.0
+        }, 
+        {
+            "event" : "bot",
+            "timestamp" : 1545917067.70609,
+            "text" : "Olá! Qual o seu nome?",
+            "data" : {
+                "elements" : null,
+                "buttons" : null,
+                "attachment" : null
+            }
+        }, 
+        {
+            "event" : "action",
+            "timestamp" : 1545917067.74207,
+            "name" : "action_listen",
+            "policy" : "policy_0_MemoizationPolicy",
+            "confidence" : 1.0
+        }, 
+        {
+            "event" : "user",
+            "timestamp" : 1545917085.04533,
+            "text" : "Me chamo Newton",
+            "parse_data" : {
+                "intent" : {
+                    "name" : "say_name",
+                    "confidence" : 0.527522450625
+                },
+                "entities" : [ 
+                    {
+                        "start" : 9,
+                        "end" : 15,
+                        "value" : "newton",
+                        "entity" : "name",
+                        "confidence" : 0.655644463899868,
+                        "extractor" : "ner_crf"
+                    }
+                ],
+                "intent_ranking" : [ 
+                    {
+                        "name" : "say_name",
+                        "confidence" : 0.527522450625
+                    }, 
+                    {
+                        "name" : "inform",
+                        "confidence" : 0.352109796352732
+                    }, 
+                    {
+                        "name" : "goodbye",
+                        "confidence" : 0.0682241152083635
+                    }, 
+                    {
+                        "name" : "greet",
+                        "confidence" : 0.0521436378139044
+                    }
+                ],
+                "text" : "Me chamo Newton"
+            },
+            "input_channel" : "slack"
+        }, 
+        {
+            "event" : "slot",
+            "timestamp" : 1545917085.04537,
+            "name" : "name",
+            "value" : "newton"
+        }, 
+        {
+            "event" : "action",
+            "timestamp" : 1545917085.74425,
+            "name" : "action_name",
+            "policy" : "policy_0_MemoizationPolicy",
+            "confidence" : 1.0
+        }, 
+        {
+            "event" : "slot",
+            "timestamp" : 1545917085.74426,
+            "name" : "name",
+            "value" : "newton"
+        }, 
+        {
+            "event" : "bot",
+            "timestamp" : 1545917085.74427,
+            "text" : "Olá newton, como posso lhe ajudar?",
+            "data" : {
+                "elements" : null,
+                "buttons" : null,
+                "attachment" : null
+            }
+        }, 
+        {
+            "event" : "action",
+            "timestamp" : 1545917085.74767,
+            "name" : "action_listen",
+            "policy" : "policy_0_MemoizationPolicy",
+            "confidence" : 1.0
+        }, 
+        {
+            "event" : "user",
+            "timestamp" : 1545917093.23868,
+            "text" : "Quero saber o tempo em Fortaleza",
+            "parse_data" : {
+                "intent" : {
+                    "name" : "inform",
+                    "confidence" : 0.860815754412458
+                },
+                "entities" : [ 
+                    {
+                        "start" : 23,
+                        "end" : 32,
+                        "value" : "fortaleza",
+                        "entity" : "location",
+                        "confidence" : 0.873231506752289,
+                        "extractor" : "ner_crf"
+                    }
+                ],
+                "intent_ranking" : [ 
+                    {
+                        "name" : "inform",
+                        "confidence" : 0.860815754412458
+                    }, 
+                    {
+                        "name" : "say_name",
+                        "confidence" : 0.0846745945263604
+                    }, 
+                    {
+                        "name" : "goodbye",
+                        "confidence" : 0.0319513179328843
+                    }, 
+                    {
+                        "name" : "greet",
+                        "confidence" : 0.022558333128298
+                    }
+                ],
+                "text" : "Quero saber o tempo em Fortaleza"
+            },
+            "input_channel" : "slack"
+        }, 
+        {
+            "event" : "slot",
+            "timestamp" : 1545917093.23871,
+            "name" : "location",
+            "value" : "fortaleza"
+        }, 
+        {
+            "event" : "action",
+            "timestamp" : 1545917098.01129,
+            "name" : "action_anime",
+            "policy" : "policy_0_MemoizationPolicy",
+            "confidence" : 1.0
+        }, 
+        {
+            "event" : "slot",
+            "timestamp" : 1545917098.01131,
+            "name" : "location",
+            "value" : "fortaleza"
+        }, 
+        {
+            "event" : "bot",
+            "timestamp" : 1545917098.01134,
+            "text" : "Atualmente está Muitas nuvens em Fortaleza. A temperatura é de 29 graus, a humidade é de 66 e a velocidade do vento é de 26 mph",
+            "data" : {
+                "elements" : null,
+                "buttons" : null,
+                "attachment" : null
+            }
+        }, 
+        {
+            "event" : "action",
+            "timestamp" : 1545917098.01679,
+            "name" : "action_listen",
+            "policy" : "policy_0_MemoizationPolicy",
+            "confidence" : 1.0
+        }
+    ],
+    "followup_action" : null,
+    "latest_action_name" : "action_listen",
+    "latest_event_time" : 1545917098.01679,
+    "latest_input_channel" : "slack",
+    "latest_message" : {
+        "intent" : {
+            "name" : "inform",
+            "confidence" : 0.860815754412458
+        },
+        "entities" : [ 
+            {
+                "start" : 23,
+                "end" : 32,
+                "value" : "fortaleza",
+                "entity" : "location",
+                "confidence" : 0.873231506752289,
+                "extractor" : "ner_crf"
+            }
+        ],
+        "intent_ranking" : [ 
+            {
+                "name" : "inform",
+                "confidence" : 0.860815754412458
+            }, 
+            {
+                "name" : "say_name",
+                "confidence" : 0.0846745945263604
+            }, 
+            {
+                "name" : "goodbye",
+                "confidence" : 0.0319513179328843
+            }, 
+            {
+                "name" : "greet",
+                "confidence" : 0.022558333128298
+            }
+        ],
+        "text" : "Quero saber o tempo em Fortaleza"
+    },
+    "paused" : false,
+    "slots" : {
+        "location" : "fortaleza",
+        "name" : "newton"
+    }
+}

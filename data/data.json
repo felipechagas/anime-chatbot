@@ -1,0 +1,203 @@
+﻿{
+  "rasa_nlu_data": {
+    "commom_examples": [],
+    "common_examples": [
+      {
+        "text": "Olá",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Oi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Tchau",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "adeus",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Como está o tempo em Berlim no momento?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "Berlim",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Até mais",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Até logo",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Como está o tempo em Londres hoje?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "Londres",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Como está o clima em Roma ?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 21,
+            "end": 25,
+            "value": "Roma",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Me fale sobre o tempo em Paris",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 25,
+            "end": 30,
+            "value": "Paris",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Gostaria de saber como está o clima em Lisboa",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 39,
+            "end": 45,
+            "value": "Lisboa",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Pode me dizer como está o tempo em Madrid?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 35,
+            "end": 41,
+            "value": "Madrid",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Estou indo para Miami e quero saber como está o tempo lá",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "Miami",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "O tempo está bom em Barcelona ?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 29,
+            "value": "Barcelona",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Quero saber o tempo em Dublin, por favor.",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Dublin",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Quero saber sobre o tempo",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "Me fale sobre o clima",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "Me diga as condições climáticas em Moscou",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 35,
+            "end": 41,
+            "value": "Moscou",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Lituânia",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Lituânia",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "No Rio de Janeiro",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 17,
+            "value": "Rio de Janeiro",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Em Orlando",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "Orlando",
+            "entity": "location"
+          }
+        ]
+      }
+    ]
+  }
+}

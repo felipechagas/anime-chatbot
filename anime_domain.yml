@@ -1,0 +1,34 @@
+slots:
+  location:
+    type: text
+  name:
+    type: text
+
+intents:
+  - greet
+  - goodbye
+  - inform
+  - say_name
+
+entities:
+  - location
+  - name
+
+templates:
+  utter_greet:
+    - "Ola! Como posso lhe ajudar?"
+  utter_goodbye:
+    - "Ate a próxima!"
+    - "Ate mais"
+  utter_ask_location:
+    - "Em qual localidade?"
+  utter_ask_name:
+    - "Olá! Qual o seu nome?"
+
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_ask_location
+  - utter_ask_name
+  - action_anime
+  - action_name

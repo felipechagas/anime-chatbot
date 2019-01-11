@@ -1,0 +1,275 @@
+﻿{
+  "rasa_nlu_data": {
+    "commom_examples": [],
+    "common_examples": [
+      {
+        "text": "Olá",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Oi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Tchau",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "adeus",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Como está o tempo em Guarulhos no momento?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 21,
+            "end": 30,
+            "value": "Guarulhos",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Até mais",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Até logo",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Como está o tempo em Recife hoje?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "Recife",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Como está o clima em Fortaleza ?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 21,
+            "end": 30,
+            "value": "Fortaleza",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Me fale sobre o tempo em Natal",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 25,
+            "end": 30,
+            "value": "Natal",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Gostaria de saber como está o clima em São Paulo",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 39,
+            "end": 48,
+            "value": "São Paulo",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Pode me dizer como está o tempo em Florianópolis?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 35,
+            "end": 48,
+            "value": "Florianopolis",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Estou indo para Curitiba e quero saber como está o tempo lá",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 24,
+            "value": "Curitiba",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "O tempo está bom em Manaus ?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "Manaus",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Quero saber o tempo em Salvador, por favor.",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "Salvador",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Quero saber sobre o tempo",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "Me fale sobre o clima",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "Me diga as condições climáticas em Belo Horizonte",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 35,
+            "end": 49,
+            "value": "Belo Horizonte",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Quixadá",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Quixadá",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "No Rio de Janeiro",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 17,
+            "value": "Rio de Janeiro",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Em Sobral",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "Sobral",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Me chamo João",
+        "intent": "say_name",
+        "entities": [
+          {
+            "start": 9,
+            "end": 13,
+            "value": "João",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Eu sou Carlos",
+        "intent": "say_name",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "Carlos",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "sou Newton",
+        "intent": "say_name",
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "value": "Newton",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Aqui é o Odílio",
+        "intent": "say_name",
+        "entities": [
+          {
+            "start": 9,
+            "end": 15,
+            "value": "Odílio",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Eu sou o Pedro",
+        "intent": "say_name",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "Pedro",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Aqui quem fala é o Henrique",
+        "intent": "say_name",
+        "entities": [
+          {
+            "start": 19,
+            "end": 27,
+            "value": "Henrique",
+            "entity": "name"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+%YAML 1.1
+---
+actions:
+- utter_ask_location
+- action_anime
+- action_name
+- utter_goodbye
+- utter_ask_name
+- utter_greet
+entities:
+- name
+- location
+intents:
+- greet
+- goodbye
+- inform
+- say_name
+slots:
+  location:
+    type: text
+  name:
+    type: text
+templates:
+  utter_ask_location:
+  - text: Em qual localidade?
+  utter_ask_name:
+  - text: Olá! Qual o seu nome?
+  utter_goodbye:
+  - text: Ate a próxima!
+  - text: Ate mais
+  utter_greet:
+  - text: Ola! Como posso lhe ajudar?
